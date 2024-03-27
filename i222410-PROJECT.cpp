@@ -77,7 +77,7 @@ public:
     }
     void Fly_To_Destination()
     {
-        srand(time(0));
+        srand(0);
   
         if (Destination != "Pending" && Status=="Operational")
         {
